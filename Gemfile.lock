@@ -1,3 +1,9 @@
+PATH
+  remote: child_app
+  specs:
+    child_app (0.0.1)
+      rails (~> 4.1.16)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -109,6 +115,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  child_app!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
